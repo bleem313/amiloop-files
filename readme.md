@@ -38,12 +38,12 @@ Connect the AmiLoop
 
 Make the following connections between the AmiLoop and the Pi
 
-|AmiLoop|Raspberry Pi|Pi GPIO|
-|--|--|--|
-|`Vin`|`3.3v`|`Pin 1`|
-|`GND`|`GND`|`Pin 20`|
-|`IO`|`GPIO 8`|`Pin 24`|
-|`CLK`|`GPIO 11`|`Pin 23`|
+|AmiLoop|&harr;|Raspberry Pi|Pin #|
+|:--:|:--:|:--:|:--:|
+|`Vin`|&harr;|`3.3v`|`1`|
+|`GND`|&harr;|`GND`|`20`|
+|`IO`|&harr;|`GPIO 8`|`24`|
+|`CLK`|&harr;|`GPIO 11`|`23`|
 
 
 The end result should look like this (ignore brown wire in picture):
